@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Fighting Force",
+    "id": "SLUS-00433",
+    "boot_exe": "SLUS_004.33"
+  },
+  "marketing": {
+    "description": "Fighting Force recompiled for modern systems using psxrecomp.",
+    "publisher": "Eidos Interactive",
+    "year": "1997",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "disc1.cue",
+    "bin_name": "disc1.bin",
+    "track_counts": [
+      27
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 745290000,
+      "md5": "2448e45804b50052d97dc70af36e4f01",
+      "sha1": "198a7e0a858b719f227e3b046c3e6609fdeac7de",
+      "crc32": "d49f9c96"
+    },
+    "disc_fp": "8c37c89509c33555960627fdc83b0f9298d5eacbb7044e0a74c99ccf95afc5f1"
+  },
+  "exe": {
+    "load_address": "0x801F8000",
+    "entry_pc": "0x801FBF00",
+    "text_size": "0x00005800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 68,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

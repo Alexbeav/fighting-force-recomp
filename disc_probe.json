@@ -1,0 +1,28 @@
+{
+  "cue_name": "disc1.cue",
+  "bin_name": "disc1.bin",
+  "track_count": 27,
+  "data_track_size": 745290000,
+  "data_track_md5": "2448e45804b50052d97dc70af36e4f01",
+  "data_track_sha1": "198a7e0a858b719f227e3b046c3e6609fdeac7de",
+  "data_track_crc32": "d49f9c96",
+  "boot_exe": "SLUS_004.33",
+  "serial": "SLUS-00433",
+  "serial_exe": "SLUS_004.33",
+  "volume_id": "FIGHTINGFORCE",
+  "display_name": "Fighting Force",
+  "load_address": "0x801F8000",
+  "entry_pc": "0x801FBF00",
+  "text_size": "0x00005800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "8c37c89509c33555960627fdc83b0f9298d5eacbb7044e0a74c99ccf95afc5f1",
+  "boot_exe_sha256": "de23e6e6eb1a3f727f4f04d5feb1007be6427cfc8b02ed902d7e320f2ec3a060",
+  "seed_count": 68,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
